@@ -1,0 +1,50 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+canvas{
+		border:1px solid black;
+    float: left;
+    position: absolute;
+    z-index: 10;
+	}
+	body{
+		margin :0;
+		display: flex;
+		justify-content: center;
+    align-items: center;
+    overflow: hidden;
+	}
+.answer {
+  font-size: 2em;
+  width: 250px;
+  height:2em;
+}
+p{
+  font-size:2em;
+}
+.wrapper{
+  height: 30%;
+  width: 20%;
+  float: left;
+  padding: 10px;
+  border-radius: 15px;
+  position: relative;
+  z-index: 20;
+  background:white;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+}
+#matrix {
+  -webkit-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+  max-width: 100%;
+}
+iframe {
+  border: 5px solid #f4cf77;
+  z-index:50;
+  display: none;
+}
